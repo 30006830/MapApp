@@ -464,3 +464,5 @@ D:\VSApplications\MapApp\mapApplication\mapApplication\mapApplication.Android\ob
 D:\VSApplications\MapApp\mapApplication\mapApplication\mapApplication.Android\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
 D:\VSApplications\MapApp\mapApplication\mapApplication\mapApplication.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 D:\VSApplications\MapApp\mapApplication\mapApplication\mapApplication.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
+D:\VSApplications\MapApp\mapApplication\mapApplication\mapApplication.Android\obj\Debug\90\HomePage.xaml.g.cs
+D:\VSApplications\MapApp\mapApplication\mapApplication\mapApplication.Android\obj\Debug\90\AccountPage.xaml.g.cs

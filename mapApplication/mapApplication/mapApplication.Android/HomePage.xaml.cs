@@ -16,5 +16,10 @@ namespace mapApplication.Droid
         {
             InitializeComponent();
         }
+
+        private void GestureSwipe(object sender, SwipedEventArgs e)
+        {
+
+        }
     }
 }

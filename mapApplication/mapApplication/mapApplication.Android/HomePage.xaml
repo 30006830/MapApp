@@ -1,12 +1,38 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="mapApplication.Droid.HomePage">
+             x:Class="mapApplication.Droid.HomePage"
+             BackgroundColor="#212121">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="125"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="2*"/>
+            </Grid.ColumnDefinitions>
+            
+            <!-- Gesture Control Navigation Bar. Positioned Top -->
+            <BoxView BackgroundColor="#BABABA" Grid.Row="0" Grid.ColumnSpan="4">
+                <BoxView.GestureRecognizers>
+                    <SwipeGestureRecognizer Direction="Left,Right" Swiped="GestureSwipe"/>
+                </BoxView.GestureRecognizers>
+            </BoxView>
+            
+            
+            <StackLayout Grid.Row="1" Grid.ColumnSpan="4">
+                <Label Text="Welcome" FontSize="36" 
+                       FontAttributes="Bold" TextColor="White"
+                       HorizontalTextAlignment="Center"/>
+                <Label Text="This is a map application for the central region of New Zealand."
+                       FontSize="18" FontAttributes="Bold" TextColor="White"
+                       HorizontalTextAlignment="Center"/>
+            </StackLayout>
+        </Grid>
+        
     </ContentPage.Content>
 </ContentPage>

@@ -12,3 +12,4 @@ D:\VSApplications\MapApp\mapApplication\mapApplication\mapApplication\obj\Debug\
 D:\VSApplications\MapApp\mapApplication\mapApplication\mapApplication\obj\Debug\netstandard2.0\mapApplication.dll
 D:\VSApplications\MapApp\mapApplication\mapApplication\mapApplication\obj\Debug\netstandard2.0\ref\mapApplication.dll
 D:\VSApplications\MapApp\mapApplication\mapApplication\mapApplication\obj\Debug\netstandard2.0\mapApplication.pdb
+D:\VSApplications\MapApp\mapApplication\mapApplication\mapApplication\obj\Debug\netstandard2.0\FirstPage.xaml.g.cs
