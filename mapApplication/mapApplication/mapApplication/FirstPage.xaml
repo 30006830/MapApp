@@ -7,8 +7,6 @@
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="125"/>
-                <RowDefinition Height="3*"/>
-                <RowDefinition Height="2*"/>
                 <RowDefinition Height="2*"/>
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
@@ -18,35 +16,45 @@
                 <ColumnDefinition Width="2*"/>
             </Grid.ColumnDefinitions>
             
-            <!-- Gesture Control Navigation Bar. Positioned Top -->
+             <!-- Gesture Control Navigation Bar. Positioned Top -->
             <BoxView BackgroundColor="#BABABA" Grid.Row="0" Grid.ColumnSpan="4">
                 <BoxView.GestureRecognizers>
                     <SwipeGestureRecognizer Direction="Left,Right" Swiped="GestureSwipe"/>
                 </BoxView.GestureRecognizers>
             </BoxView>
-            
-            <StackLayout Grid.Row="1" Grid.ColumnSpan="4">
-                <Label Text="Welcome" FontSize="48" 
-                       FontAttributes="Bold" TextColor="White"
-                       Padding="10,0"/>
-                <Label Text="This is a map application for the central region of New Zealand."
-                       FontSize="22" TextColor="White" Padding="10,0"/>
-                
-            </StackLayout>
-            <StackLayout Grid.Row="2" Grid.ColumnSpan="4">
-                <Label Text="Recently Visited" TextColor="White" 
-                       FontAttributes="Bold" FontSize="36"
-                       Padding="10,0"/>
-                <Button HeightRequest="150">
-                    
-                </Button>
-            </StackLayout>
-            <StackLayout Grid.Row="3" Grid.ColumnSpan="4">
-                <Label Text="Recommendations" TextColor="White" 
-                       FontAttributes="Bold" FontSize="36"
-                       Padding="10,0"/>
-                <Button HeightRequest="150"></Button>
-            </StackLayout>
+
+            <ScrollView Orientation="Vertical" Grid.Row="1" Grid.ColumnSpan="4">
+                <StackLayout HorizontalOptions="Fill">
+                    <ContentView>
+                        <StackLayout Grid.Row="1" Grid.ColumnSpan="4">
+                            <Label Text="Welcome" FontSize="48" 
+                            FontAttributes="Bold" TextColor="White"
+                            Padding="10,0"/>
+                            <Label Text="This is a map application for the central region of New Zealand."
+                            FontSize="22" TextColor="White" Padding="10,0"/>
+                        </StackLayout>
+                    </ContentView>
+
+                    <ContentView>
+                        <StackLayout Grid.Row="2" Grid.ColumnSpan="4">
+                            <Label Text="Recently Visited" TextColor="White" 
+                            FontAttributes="Bold" FontSize="36"
+                            Padding="10,0"/>
+                            <Button HeightRequest="150"/>
+                        </StackLayout>
+                    </ContentView>
+
+
+                    <ContentView>
+                        <StackLayout Grid.Row="3" Grid.ColumnSpan="4">
+                            <Label Text="Recommendations" TextColor="White" 
+                            FontAttributes="Bold" FontSize="36"
+                            Padding="10,0"/>
+                            <Button HeightRequest="150"/>
+                        </StackLayout>
+                    </ContentView>
+                </StackLayout>
+            </ScrollView>
         </Grid>
 
     </ContentPage.Content>
