@@ -16,7 +16,8 @@
                 <ColumnDefinition Width="2*"/>
             </Grid.ColumnDefinitions>
             
-             <!-- Gesture Control Navigation Bar. Positioned Top -->
+            <!-- Gesture Control Navigation Bar. Positioned Top 
+            
             <BoxView BackgroundColor="#BABABA" Grid.Row="0" Grid.ColumnSpan="4">
                 <BoxView.GestureRecognizers>
                     <SwipeGestureRecognizer Direction="Left,Right" Swiped="GestureSwipe"/>
@@ -26,7 +27,7 @@
             <ScrollView Orientation="Vertical" Grid.Row="1" Grid.ColumnSpan="4">
                 <StackLayout HorizontalOptions="Fill">
                     <ContentView>
-                        <StackLayout Grid.Row="1" Grid.ColumnSpan="4">
+                        <StackLayout>
                             <Label Text="Welcome" FontSize="48" 
                             FontAttributes="Bold" TextColor="White"
                             Padding="10,0"/>
@@ -34,28 +35,37 @@
                             FontSize="22" TextColor="White" Padding="10,0"/>
                         </StackLayout>
                     </ContentView>
-
+                    
+                Recently Visited 
+            
                     <ContentView>
-                        <StackLayout Grid.Row="2" Grid.ColumnSpan="4">
+                        <StackLayout>
                             <Label Text="Recently Visited" TextColor="White" 
                             FontAttributes="Bold" FontSize="36"
                             Padding="10,0"/>
-                            <Button HeightRequest="150"/>
+                            <Frame HeightRequest="100" BackgroundColor="#3f3f3f">
+                                
+                            </Frame>
                         </StackLayout>
                     </ContentView>
 
-
+                    
+                Recommendations
+            
                     <ContentView>
-                        <StackLayout Grid.Row="3" Grid.ColumnSpan="4">
+                        <StackLayout>
                             <Label Text="Recommendations" TextColor="White" 
                             FontAttributes="Bold" FontSize="36"
                             Padding="10,0"/>
                             <Button HeightRequest="150"/>
                         </StackLayout>
                     </ContentView>
-                </StackLayout>
-            </ScrollView>
-        </Grid>
 
+                    <ContentView>
+                        <StackLayout>
+                            <Button HeightRequest="150"/>
+                        </StackLayout>
+                    </ContentView> -->
+        </Grid>
     </ContentPage.Content>
 </ContentPage>
