@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"            
+             x:Class="mapApplication.Home"             
+             BackgroundColor="#212121">
+    <ContentPage.Content>
+
+    <!--https://www.telerik.com/blogs/applying-simple-navigation-xamarin-forms-->
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="125"/>
+                <RowDefinition Height="2*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="2*"/>
+            </Grid.ColumnDefinitions>
+
+            <StackLayout Grid.ColumnSpan="4" Grid.Row="0">
+                <StackLayout BackgroundColor="#BABABA" Orientation="Horizontal">
+                    <Button Clicked="Button_Clicked" BackgroundColor="#00c4bb"/>
+                    <Button Clicked="Button_Clicked" BackgroundColor="#00c4bb"/>
+                    <Button Clicked="Button_Clicked" BackgroundColor="#00c4bb"/>
+                    <Button Clicked="Button_Clicked" BackgroundColor="#00c4bb"/>
+                    <Button Clicked="Button_Clicked" BackgroundColor="#00c4bb"/>
+                </StackLayout>
+            </StackLayout>
+                        
+            <ScrollView Orientation="Vertical" Grid.Row="1" Grid.ColumnSpan="4">
+                <StackLayout HorizontalOptions="Fill">
+                    <ContentView>
+                        <StackLayout>
+                            <Label Text="Welcome" FontSize="48" 
+                                FontAttributes="Bold" TextColor="White"
+                                Padding="10,0"/>
+                            <Label Text="This is a map application for the central region of New Zealand."
+                                FontSize="22" TextColor="White" Padding="10,0"/>
+                        </StackLayout>
+                    </ContentView>
+
+                <!-- Recently Visited -->
+
+                    <ContentView>
+                        <StackLayout>
+                            <Label Text="Recently Visited" TextColor="White" 
+                                FontAttributes="Bold" FontSize="36"
+                                Padding="10,0"/>
+                            <Frame HeightRequest="100" BackgroundColor="#3f3f3f">
+                                <Ellipse/>
+                            </Frame>
+                        </StackLayout>
+                    </ContentView>
+
+
+                <!-- Recommendations -->
+
+                    <ContentView>
+                        <StackLayout>
+                            <Label Text="Recommendations" TextColor="White" 
+                                FontAttributes="Bold" FontSize="36"
+                                Padding="10,0"/>
+                            <Button HeightRequest="150"/>
+                        </StackLayout>
+                    </ContentView>
+    
+                    <ContentView>
+                        <StackLayout>
+                            <Button HeightRequest="150"/>
+                        </StackLayout>
+                    </ContentView>
+                </StackLayout>
+            </ScrollView>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

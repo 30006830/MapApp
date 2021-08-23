@@ -9,7 +9,7 @@ namespace mapApplication
         public App()
         {            
             InitializeComponent();
-            MainPage = new FirstPage();
+            MainPage = new NavigationPage (new Home());
         }
 
         protected override void OnStart()

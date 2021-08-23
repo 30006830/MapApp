@@ -12,7 +12,7 @@ namespace mapApplication
     {
         public MainPage()
         {
-            InitializeComponent();
+            InitializeComponent();            
         }
     }
 }
