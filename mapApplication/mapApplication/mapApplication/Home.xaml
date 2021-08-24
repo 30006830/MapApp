@@ -17,20 +17,24 @@
                 <ColumnDefinition Width="2*"/>
                 <ColumnDefinition Width="2*"/>
                 <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="2*"/>
             </Grid.ColumnDefinitions>
 
-            <StackLayout Grid.ColumnSpan="4" Grid.Row="0">
-                <StackLayout BackgroundColor="#BABABA" Orientation="Horizontal">
+            
+                <FlexLayout Grid.ColumnSpan="5" Grid.Row="0" BackgroundColor="#BABABA" AlignItems="End" 
+                            JustifyContent="SpaceEvenly" HeightRequest="125">
+                    <ImageButton Clicked="Button_Clicked" Source="Resources/drawable/" HeightRequest="50">
+
+                    </ImageButton>
                     <Button Clicked="Button_Clicked" BackgroundColor="#00c4bb"/>
                     <Button Clicked="Button_Clicked" BackgroundColor="#00c4bb"/>
                     <Button Clicked="Button_Clicked" BackgroundColor="#00c4bb"/>
                     <Button Clicked="Button_Clicked" BackgroundColor="#00c4bb"/>
-                    <Button Clicked="Button_Clicked" BackgroundColor="#00c4bb"/>
-                </StackLayout>
-            </StackLayout>
+                </FlexLayout>
+            
                         
-            <ScrollView Orientation="Vertical" Grid.Row="1" Grid.ColumnSpan="4">
-                <StackLayout HorizontalOptions="Fill">
+            <ScrollView Orientation="Vertical" Grid.Row="1" Grid.ColumnSpan="5">
+                <StackLayout HorizontalOptions="Start">
                     <ContentView>
                         <StackLayout>
                             <Label Text="Welcome" FontSize="48" 
@@ -48,9 +52,11 @@
                             <Label Text="Recently Visited" TextColor="White" 
                                 FontAttributes="Bold" FontSize="36"
                                 Padding="10,0"/>
-                            <Frame HeightRequest="100" BackgroundColor="#3f3f3f">
-                                <Ellipse/>
-                            </Frame>
+                            <StackLayout BackgroundColor="#3f3f3f" Orientation="Horizontal" Padding="20,20">
+                                <ImageButton Source="hotpools.png" HeightRequest="100" BackgroundColor="Transparent"/>
+                                <ImageButton Source="hotpools.png" HeightRequest="100" BackgroundColor="Transparent"/>
+                                <ImageButton Source="hotpools.png" HeightRequest="100" BackgroundColor="Transparent"/>
+                            </StackLayout>
                         </StackLayout>
                     </ContentView>
 
@@ -62,14 +68,21 @@
                             <Label Text="Recommendations" TextColor="White" 
                                 FontAttributes="Bold" FontSize="36"
                                 Padding="10,0"/>
-                            <Button HeightRequest="150"/>
+                            <StackLayout BackgroundColor="#3f3f3f" Orientation="Horizontal" Padding="20,20">
+                                <ImageButton Source="hotpools.png" HeightRequest="100" BackgroundColor="Transparent"/>
+                                <ImageButton Source="hotpools.png" HeightRequest="100" BackgroundColor="Transparent"/>
+                                <ImageButton Source="hotpools.png" HeightRequest="100" BackgroundColor="Transparent"/>
+                            </StackLayout>
                         </StackLayout>
                     </ContentView>
-    
+
                     <ContentView>
-                        <StackLayout>
-                            <Button HeightRequest="150"/>
-                        </StackLayout>
+                        <Frame HeightRequest="300">
+                            <StackLayout>
+                                <Image Source="map.png" HeightRequest="250" Aspect="AspectFill"/>
+                                <Button Text="Go to Map" VerticalOptions="End" HeightRequest="100"/>
+                            </StackLayout>
+                        </Frame>
                     </ContentView>
                 </StackLayout>
             </ScrollView>
