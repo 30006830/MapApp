@@ -588,3 +588,11 @@ D:\VSApplications\MapApp\mapApplication\mapApplication\mapApplication.Android\ob
 D:\VSApplications\MapApp\mapApplication\mapApplication\mapApplication.Android\obj\Debug\100\stamp\_GenerateJavaStubs.stamp
 D:\VSApplications\MapApp\mapApplication\mapApplication\mapApplication.Android\obj\Debug\100\stamp\_GeneratePackageManagerJava.stamp
 D:\VSApplications\MapApp\mapApplication\mapApplication\mapApplication.Android\obj\Debug\100\stamp\_ResolveLibraryProjectImports.stamp
+D:\VSApplications\MapApp\mapApplication\mapApplication\mapApplication.Android\obj\Debug\100\res\drawable\map.png
+D:\VSApplications\MapApp\mapApplication\mapApplication\mapApplication.Android\obj\Debug\100\res\drawable\hotpools.png
+D:\VSApplications\MapApp\mapApplication\mapApplication\mapApplication.Android\obj\Debug\100\res\drawable\bell.png
+D:\VSApplications\MapApp\mapApplication\mapApplication\mapApplication.Android\obj\Debug\100\res\drawable\home.png
+D:\VSApplications\MapApp\mapApplication\mapApplication\mapApplication.Android\obj\Debug\100\res\drawable\mappointer.png
+D:\VSApplications\MapApp\mapApplication\mapApplication\mapApplication.Android\obj\Debug\100\res\drawable\profilepicture.png
+D:\VSApplications\MapApp\mapApplication\mapApplication\mapApplication.Android\obj\Debug\100\res\drawable\messages.png
+D:\VSApplications\MapApp\mapApplication\mapApplication\mapApplication.Android\obj\Debug\100\res\drawable\tuwharetoa.png

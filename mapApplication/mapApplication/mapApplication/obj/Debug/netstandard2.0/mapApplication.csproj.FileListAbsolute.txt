@@ -14,3 +14,5 @@ D:\VSApplications\MapApp\mapApplication\mapApplication\mapApplication\obj\Debug\
 D:\VSApplications\MapApp\mapApplication\mapApplication\mapApplication\obj\Debug\netstandard2.0\mapApplication.pdb
 D:\VSApplications\MapApp\mapApplication\mapApplication\mapApplication\obj\Debug\netstandard2.0\Home.xaml.g.cs
 D:\VSApplications\MapApp\mapApplication\mapApplication\mapApplication\obj\Debug\netstandard2.0\Account.xaml.g.cs
+D:\VSApplications\MapApp\mapApplication\mapApplication\mapApplication\obj\Debug\netstandard2.0\Map.xaml.g.cs
+D:\VSApplications\MapApp\mapApplication\mapApplication\mapApplication\obj\Debug\netstandard2.0\Notifications.xaml.g.cs
