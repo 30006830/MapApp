@@ -2,15 +2,17 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="mapApplication.Account"
-             BackgroundColor="#212121"
-             IconImageSource="tuwharetoa.png">
+             BackgroundColor="#212121">
+
+    <!-- Title for page -->
     <NavigationPage.TitleView>
-        <FlexLayout BackgroundColor="#BABABA" VerticalOptions="CenterAndExpand" HorizontalOptions="Center">
-            <Image Source="tuwharetoa.png" HeightRequest="70"/>
+        <FlexLayout VerticalOptions="CenterAndExpand" HorizontalOptions="Center">
+            <Label Text="Account" FontSize="22"/>
         </FlexLayout>
     </NavigationPage.TitleView>
     <ContentPage.Content>
 
+        <!-- Grid Creation -->
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="125"/>
@@ -20,19 +22,60 @@
                 <ColumnDefinition Width="2*"/>
                 <ColumnDefinition Width="2*"/>
                 <ColumnDefinition Width="2*"/>
-                <ColumnDefinition Width="2*"/>
-                <ColumnDefinition Width="2*"/>
             </Grid.ColumnDefinitions>
 
-            <ImageButton Source="tuwharetoa.png" BackgroundColor="Transparent" HeightRequest="80"/>
-
-            <FlexLayout Grid.Row="0" Grid.ColumnSpan="5" BackgroundColor="#BABABA" AlignItems="End" 
-                            JustifyContent="SpaceEvenly" HeightRequest="125">
+            <!-- Topbar Navigation -->
+            <Grid Grid.ColumnSpan="5" BackgroundColor="#BABABA">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="80"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="2*"/>
+                </Grid.ColumnDefinitions>
+                <FlexLayout Grid.Row="0" Grid.Column="1" AlignItems="Center" AlignContent="SpaceEvenly">
+                    <Image Source="tuwharetoa.png"/>
+                </FlexLayout>
+                <FlexLayout Grid.Row="1" Grid.ColumnSpan="3" AlignItems="End" 
+                        JustifyContent="SpaceEvenly" HeightRequest="125">
                 <ImageButton Clicked="HomeClicked" Source="Home.png" HeightRequest="55" BackgroundColor="Transparent"/>
                 <ImageButton Clicked="AccountClicked" Source="profilepicture.png" HeightRequest="55" BackgroundColor="Transparent"/>
                 <ImageButton Clicked="MapClicked" Source="mappointer.png" HeightRequest="55" BackgroundColor="Transparent"/>
                 <ImageButton Clicked="NotificationsClicked" Source="bell.png" HeightRequest="55" BackgroundColor="Transparent"/>
             </FlexLayout>
+            </Grid>
+            
+            <!-- Content for page -->
+            <ScrollView Grid.Row="1" Grid.ColumnSpan="5">
+                <StackLayout>
+                    <ContentView BackgroundColor="#3F3F3F">
+                        <StackLayout HorizontalOptions="Start" Margin="10,0">
+                            <Image Source="profilepicture.png"/>
+                            <Button HeightRequest="60" WidthRequest="150" Text="Edit Profile" 
+                                    BackgroundColor="#OOC4BB" CornerRadius="5"/>
+                            <Label Text="Bio" FontSize="20" TextColor="White"/>
+                            <Label x:Name="Bio" Text="{Binding userBio}" TextColor="White"/>
+                        </StackLayout>
+                    </ContentView>
+
+
+                    <ContentView BackgroundColor="#00C4BB">
+                        <StackLayout Margin="10">
+                            <Label Text="Activity" TextColor="White" FontSize="42"/>
+                            <Label Text="Placeholder text" FontSize="20"/>
+                        </StackLayout>
+                    </ContentView>
+
+                    <ContentView>
+                        <StackLayout>
+                            <Button Text="Show Messages" BackgroundColor="#OOC4BB"
+                                    CornerRadius="5" Clicked="MessagesClicked"/>
+                        </StackLayout>
+                    </ContentView>
+                </StackLayout>
+            </ScrollView>
         </Grid>
     </ContentPage.Content>
 </ContentPage>
