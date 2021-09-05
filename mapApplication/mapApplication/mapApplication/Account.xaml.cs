@@ -12,10 +12,11 @@ namespace mapApplication
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Account : ContentPage
     {
+        
         public Account()
         {
-            InitializeComponent();
-        }
+            InitializeComponent();            
+        }                    
 
         #region Navigation
         private async void HomeClicked(object sender, EventArgs e)

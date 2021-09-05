@@ -1,12 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "Ew2y+f7oFW4eEslhdQ5nPn/3InW+aIUyH4+S7lL5HzuOjjte7AeVhXlyRJdwpxDh/ZDzFnN+SBipefCBI/e7AQ==",
+  "dgSpecHash": "ExDahId2BuxpNJghwTKzi3q2KCrC6QbSzzt3VQs6L3E1ckZutKEtoy27PNDuTT3ZOf4uPr3yXvHOX7HgiXgr9g==",
   "success": true,
   "projectFilePath": "D:\\VSApplications\\MapApp\\mapApplication\\mapApplication\\mapApplication\\mapApplication.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\OEM\\.nuget\\packages\\awssdk.core\\3.7.2.10\\awssdk.core.3.7.2.10.nupkg.sha512",
+    "C:\\Users\\OEM\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
     "C:\\Users\\OEM\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\OEM\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\OEM\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+    "C:\\Users\\OEM\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.2\\system.threading.tasks.extensions.4.5.2.nupkg.sha512",
     "C:\\Users\\OEM\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
     "C:\\Users\\OEM\\.nuget\\packages\\xamarin.forms\\5.0.0.2083\\xamarin.forms.5.0.0.2083.nupkg.sha512"
   ],

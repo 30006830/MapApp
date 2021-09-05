@@ -2,12 +2,13 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="mapApplication.Messages"
-             BackgroundColor="#212121">
+             BackgroundColor="#212121"
+             Shell.NavBarIsVisible="False">
 
     <!-- Title for page -->
     <NavigationPage.TitleView>
         <FlexLayout VerticalOptions="CenterAndExpand" HorizontalOptions="Center">
-            <Label Text="Account" FontSize="22"/>
+            <Label Text="Messages" FontSize="22"/>
         </FlexLayout>
     </NavigationPage.TitleView>
     <ContentPage.Content>

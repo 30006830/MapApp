@@ -16,5 +16,28 @@ namespace mapApplication
         {
             InitializeComponent();
         }
+
+        #region Navigation
+        private async void HomeClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Home());
+        }
+        private async void AccountClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Account());
+        }
+        private async void MapClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Map());
+        }
+        private async void NotificationsClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Notifications());
+        }
+        private async void MessagesClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Messages());
+        }
+        #endregion
     }
 }

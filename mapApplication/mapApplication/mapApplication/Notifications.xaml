@@ -7,7 +7,7 @@
     <!-- Title for page -->
     <NavigationPage.TitleView>
         <FlexLayout VerticalOptions="CenterAndExpand" HorizontalOptions="Center">
-            <Label Text="Account" FontSize="22"/>
+            <Label Text="Notifications" FontSize="22"/>
         </FlexLayout>
     </NavigationPage.TitleView>
     

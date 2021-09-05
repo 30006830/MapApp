@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Amazon.Util.Internal.PlatformServices;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -9,7 +10,8 @@ namespace mapApplication
         public App()
         {            
             InitializeComponent();
-            MainPage = new NavigationPage (new Home ());
+            
+            MainPage = new NavigationPage (new Login());
         }
 
         protected override void OnStart()

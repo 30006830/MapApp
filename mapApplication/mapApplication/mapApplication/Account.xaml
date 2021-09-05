@@ -2,7 +2,8 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="mapApplication.Account"
-             BackgroundColor="#212121">
+             BackgroundColor="#212121"
+             Shell.NavBarIsVisible="False">
 
     <!-- Title for page -->
     <NavigationPage.TitleView>
@@ -40,17 +41,17 @@
                 </FlexLayout>
                 <FlexLayout Grid.Row="1" Grid.ColumnSpan="3" AlignItems="End" 
                         JustifyContent="SpaceEvenly" HeightRequest="125">
-                <ImageButton Clicked="HomeClicked" Source="Home.png" HeightRequest="55" BackgroundColor="Transparent"/>
-                <ImageButton Clicked="AccountClicked" Source="profilepicture.png" HeightRequest="55" BackgroundColor="Transparent"/>
-                <ImageButton Clicked="MapClicked" Source="mappointer.png" HeightRequest="55" BackgroundColor="Transparent"/>
-                <ImageButton Clicked="NotificationsClicked" Source="bell.png" HeightRequest="55" BackgroundColor="Transparent"/>
-            </FlexLayout>
+                    <ImageButton Clicked="HomeClicked" Source="Home.png" HeightRequest="55" BackgroundColor="Transparent"/>
+                    <ImageButton Clicked="AccountClicked" Source="profilepicture.png" HeightRequest="55" BackgroundColor="Transparent"/>
+                    <ImageButton Clicked="MapClicked" Source="mappointer.png" HeightRequest="55" BackgroundColor="Transparent"/>
+                    <ImageButton Clicked="NotificationsClicked" Source="bell.png" HeightRequest="55" BackgroundColor="Transparent"/>
+                </FlexLayout>
             </Grid>
             
             <!-- Content for page -->
             <ScrollView Grid.Row="1" Grid.ColumnSpan="5">
                 <StackLayout>
-                    <ContentView BackgroundColor="#3F3F3F">
+                    <ContentView BackgroundColor="#3F3F3F" VerticalOptions="Start">
                         <StackLayout HorizontalOptions="Start" Margin="10,0">
                             <Image Source="profilepicture.png"/>
                             <Button HeightRequest="60" WidthRequest="150" Text="Edit Profile" 
@@ -61,19 +62,25 @@
                     </ContentView>
 
 
-                    <ContentView BackgroundColor="#00C4BB">
+                    <ContentView BackgroundColor="#00C4BB" VerticalOptions="CenterAndExpand">
                         <StackLayout Margin="10">
                             <Label Text="Activity" TextColor="White" FontSize="42"/>
-                            <Label Text="Placeholder text" FontSize="20"/>
+                            <Label Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut augue nec eros laoreet commodo a ac tellus. Donec eget velit odio. Sed in euismod est, luctus molestie tortor. Phasellus ultrices non est in ultricies. Mauris sed massa eu quam fringilla tincidunt et quis quam. Ut venenatis, arcu ullamcorper facilisis ultricies, purus mi facilisis sem, eu egestas tellus ligula vitae leo. Nam placerat velit ante, vel tempor justo faucibus ut. Pellentesque a metus at leo vehicula porta sit amet sed metus. Donec in erat vel sem hendrerit vulputate. Quisque sollicitudin hendrerit odio eget varius. Pellentesque metus velit, rutrum condimentum risus vel, feugiat iaculis arcu. Quisque et libero eget ex maximus volutpat. Maecenas dapibus eros vel justo consectetur, eget varius orci convallis. Nullam suscipit tristique rhoncus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus" FontSize="20"/>
                         </StackLayout>
                     </ContentView>
 
-                    <ContentView>
-                        <StackLayout>
+                   
+                        <StackLayout VerticalOptions="End">
                             <Button Text="Show Messages" BackgroundColor="#OOC4BB"
                                     CornerRadius="5" Clicked="MessagesClicked"/>
                         </StackLayout>
-                    </ContentView>
+                    
+                    
+                        <StackLayout HorizontalOptions="End">
+                            <ImageButton Source="messages.png" HeightRequest="50" BackgroundColor="Transparent" Clicked="MessagesClicked"/>
+                        </StackLayout>
+                    
+                    
                 </StackLayout>
             </ScrollView>
         </Grid>

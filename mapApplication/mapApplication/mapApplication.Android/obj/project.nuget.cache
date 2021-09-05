@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "BYdhRZFoebTjyEAadPGRU+Xl0Id8g32KFqn19lIuwxr6wb/0b9pgCWBkqzgw+lXFuAG/PZLAkuDCvXqQgc2Trw==",
+  "dgSpecHash": "8syJHWDCYh6SERjaN7Y81OiRc4G/qLEN8OW3x+Bwo33HC7fLJbF0NgxV8Z/YRlWs4A5aRO96rjrqI5kIiSq7Tw==",
   "success": true,
   "projectFilePath": "D:\\VSApplications\\MapApp\\mapApplication\\mapApplication\\mapApplication.Android\\mapApplication.Android.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\OEM\\.nuget\\packages\\awssdk.core\\3.7.2.10\\awssdk.core.3.7.2.10.nupkg.sha512",
+    "C:\\Users\\OEM\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
     "C:\\Users\\OEM\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\OEM\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.2\\system.threading.tasks.extensions.4.5.2.nupkg.sha512",
     "C:\\Users\\OEM\\.nuget\\packages\\xamarin.androidx.activity\\1.2.0.1\\xamarin.androidx.activity.1.2.0.1.nupkg.sha512",
     "C:\\Users\\OEM\\.nuget\\packages\\xamarin.androidx.annotation\\1.1.0.9\\xamarin.androidx.annotation.1.1.0.9.nupkg.sha512",
     "C:\\Users\\OEM\\.nuget\\packages\\xamarin.androidx.annotation.experimental\\1.0.0.9\\xamarin.androidx.annotation.experimental.1.0.0.9.nupkg.sha512",

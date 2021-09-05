@@ -6,8 +6,6 @@ D:\VSApplications\MapApp\mapApplication\mapApplication\mapApplication\obj\Debug\
 D:\VSApplications\MapApp\mapApplication\mapApplication\mapApplication\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
 D:\VSApplications\MapApp\mapApplication\mapApplication\mapApplication\obj\Debug\netstandard2.0\mapApplication.AssemblyInfoInputs.cache
 D:\VSApplications\MapApp\mapApplication\mapApplication\mapApplication\obj\Debug\netstandard2.0\mapApplication.AssemblyInfo.cs
-D:\VSApplications\MapApp\mapApplication\mapApplication\mapApplication\obj\Debug\netstandard2.0\mapApplication.csproj.CoreCompileInputs.cache
-D:\VSApplications\MapApp\mapApplication\mapApplication\mapApplication\obj\Debug\netstandard2.0\XamlC.stamp
 D:\VSApplications\MapApp\mapApplication\mapApplication\mapApplication\obj\Debug\netstandard2.0\mapApplication.dll
 D:\VSApplications\MapApp\mapApplication\mapApplication\mapApplication\obj\Debug\netstandard2.0\ref\mapApplication.dll
 D:\VSApplications\MapApp\mapApplication\mapApplication\mapApplication\obj\Debug\netstandard2.0\mapApplication.pdb
@@ -16,3 +14,7 @@ D:\VSApplications\MapApp\mapApplication\mapApplication\mapApplication\obj\Debug\
 D:\VSApplications\MapApp\mapApplication\mapApplication\mapApplication\obj\Debug\netstandard2.0\Map.xaml.g.cs
 D:\VSApplications\MapApp\mapApplication\mapApplication\mapApplication\obj\Debug\netstandard2.0\Notifications.xaml.g.cs
 D:\VSApplications\MapApp\mapApplication\mapApplication\mapApplication\obj\Debug\netstandard2.0\mapApplication.csprojAssemblyReference.cache
+D:\VSApplications\MapApp\mapApplication\mapApplication\mapApplication\obj\Debug\netstandard2.0\Messages.xaml.g.cs
+D:\VSApplications\MapApp\mapApplication\mapApplication\mapApplication\obj\Debug\netstandard2.0\Login.xaml.g.cs
+D:\VSApplications\MapApp\mapApplication\mapApplication\mapApplication\obj\Debug\netstandard2.0\mapApplication.csproj.CoreCompileInputs.cache
+D:\VSApplications\MapApp\mapApplication\mapApplication\mapApplication\obj\Debug\netstandard2.0\XamlC.stamp

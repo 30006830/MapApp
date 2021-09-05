@@ -596,3 +596,7 @@ D:\VSApplications\MapApp\mapApplication\mapApplication\mapApplication.Android\ob
 D:\VSApplications\MapApp\mapApplication\mapApplication\mapApplication.Android\obj\Debug\100\res\drawable\profilepicture.png
 D:\VSApplications\MapApp\mapApplication\mapApplication\mapApplication.Android\obj\Debug\100\res\drawable\messages.png
 D:\VSApplications\MapApp\mapApplication\mapApplication\mapApplication.Android\obj\Debug\100\res\drawable\tuwharetoa.png
+D:\VSApplications\MapApp\mapApplication\mapApplication\mapApplication.Android\obj\Debug\100\android\assets\AWSSDK.Core.dll
+D:\VSApplications\MapApp\mapApplication\mapApplication\mapApplication.Android\obj\Debug\100\android\assets\AWSSDK.Core.pdb
+D:\VSApplications\MapApp\mapApplication\mapApplication\mapApplication.Android\obj\Debug\100\android\assets\Microsoft.Bcl.AsyncInterfaces.dll
+D:\VSApplications\MapApp\mapApplication\mapApplication\mapApplication.Android\obj\Debug\100\android\assets\System.Threading.Tasks.Extensions.dll

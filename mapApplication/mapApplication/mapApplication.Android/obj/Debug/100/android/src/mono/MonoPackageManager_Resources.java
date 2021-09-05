@@ -3,8 +3,10 @@ public class MonoPackageManager_Resources {
 	public static String[] Assemblies = new String[]{
 		/* We need to ensure that "mapApplication.Android.dll" comes first in this list. */
 		"mapApplication.Android.dll",
+		"AWSSDK.Core.dll",
 		"FormsViewGroup.dll",
 		"mapApplication.dll",
+		"Microsoft.Bcl.AsyncInterfaces.dll",
 		"Xamarin.AndroidX.Activity.dll",
 		"Xamarin.AndroidX.Annotation.dll",
 		"Xamarin.AndroidX.Annotation.Experimental.dll",

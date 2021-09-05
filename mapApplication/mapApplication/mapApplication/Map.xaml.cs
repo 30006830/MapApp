@@ -16,6 +16,8 @@ namespace mapApplication
         {
             InitializeComponent();
         }
+
+
         private async void HomeClicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new Home());
