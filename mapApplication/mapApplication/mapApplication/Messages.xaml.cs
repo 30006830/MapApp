@@ -17,6 +17,8 @@ namespace mapApplication
             InitializeComponent();
         }
 
+
+
         #region Navigation
         private async void HomeClicked(object sender, EventArgs e)
         {

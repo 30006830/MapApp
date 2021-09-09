@@ -16,6 +16,16 @@ namespace mapApplication
         {
             InitializeComponent();
         }
+
+        public interface INotificationManager
+        {
+            event EventHandler NotificationReceived;
+            void Initialize();
+            void SendNotification(string title, string message, DateTime? notifyTime = null);
+            void ReceiveNotification(string title, string message);
+        }
+
+        #region
         private async void HomeClicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new Home());
@@ -32,5 +42,6 @@ namespace mapApplication
         {
             await Navigation.PushAsync(new Notifications());
         }
+        #endregion
     }
 }

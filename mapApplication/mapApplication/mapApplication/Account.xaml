@@ -2,8 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="mapApplication.Account"
-             BackgroundColor="#212121"
-             Shell.NavBarIsVisible="False">
+             BackgroundColor="#212121">
 
     <!-- Title for page -->
     <NavigationPage.TitleView>
@@ -17,25 +16,22 @@
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="125"/>
-                <RowDefinition Height="2*"/>
+                <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="2*"/>
-                <ColumnDefinition Width="2*"/>
-                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
 
+            <Label Text="Test" TextColor="White" FontSize="40" HorizontalOptions="End"/>
+            
             <!-- Topbar Navigation -->
             <Grid Grid.ColumnSpan="5" BackgroundColor="#BABABA">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="80"/>
                     <RowDefinition Height="*"/>
                 </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="2*"/>
-                    <ColumnDefinition Width="2*"/>
-                    <ColumnDefinition Width="2*"/>
-                </Grid.ColumnDefinitions>
+
                 <FlexLayout Grid.Row="0" Grid.Column="1" AlignItems="Center" AlignContent="SpaceEvenly">
                     <Image Source="tuwharetoa.png"/>
                 </FlexLayout>
@@ -52,12 +48,16 @@
             <ScrollView Grid.Row="1" Grid.ColumnSpan="5">
                 <StackLayout>
                     <ContentView BackgroundColor="#3F3F3F" VerticalOptions="Start">
-                        <StackLayout HorizontalOptions="Start" Margin="10,0">
-                            <Image Source="profilepicture.png"/>
-                            <Button HeightRequest="60" WidthRequest="150" Text="Edit Profile" 
-                                    BackgroundColor="#OOC4BB" CornerRadius="5"/>
-                            <Label Text="Bio" FontSize="20" TextColor="White"/>
-                            <Label x:Name="Bio" Text="{Binding userBio}" TextColor="White"/>
+                        <StackLayout Margin="10,10">
+                            <StackLayout Orientation="Horizontal">
+                                <Image Source="profilepicture.png" HorizontalOptions="Start"/>
+                                <Label Text="User name" VerticalOptions="Center" FontSize="38" TextColor="White"/>
+                            </StackLayout>
+                            <StackLayout>
+                                <Button HeightRequest="60" WidthRequest="150" Text="Edit Profile" 
+                                    BackgroundColor="#OOC4BB" CornerRadius="5" HorizontalOptions="Center"/> 
+                            </StackLayout>
+                            <Label Text="Bio" VerticalOptions="Center" FontSize="38" TextColor="White"/>
                         </StackLayout>
                     </ContentView>
 

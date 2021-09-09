@@ -36,14 +36,15 @@
                     <Label Text="Password" TextColor="White" HorizontalTextAlignment="Center" FontAttributes="Bold" FontSize="24"/>
                     <Entry x:Name="Password" Text="{Binding Password}" IsPassword="True" HorizontalTextAlignment="Center" Placeholder="Enter Password Here"/>
 
-                    <Button Command="{Binding SubmitCommand}" HorizontalOptions="Center" WidthRequest="150" Text="Log in" BackgroundColor="#ooc4bb" Clicked="Button_Clicked"/>
+                    <Button Command="{Binding SubmitCommand}" HorizontalOptions="Center" WidthRequest="150" Text="Log in" BackgroundColor="#00C2BB" Clicked="Button_Clicked"/>
                 </StackLayout>
             </ContentView>
 
             <ContentView Grid.Row="2" Grid.ColumnSpan="3" VerticalOptions="End" Margin="0,20">
                 <StackLayout>
                     <Label Text="Haven't got an account?" HorizontalTextAlignment="Center" FontSize="16"/>
-                    <Button HorizontalOptions="Center" WidthRequest="150" Text="Create Account" BackgroundColor="#ooc4bb" Clicked="CreateAccount_Clicked"/>
+                    <Button HorizontalOptions="Center" WidthRequest="150" Text="Create Account" BackgroundColor="#00C2BB" Clicked="CreateAccount_Clicked"/>
+                    <Button HorizontalOptions="Center" WidthRequest="150" Text="Log in as Guest" BackgroundColor="#00C2BB" Clicked="Button_Clicked"/>
                 </StackLayout>
             </ContentView>
         </Grid>
