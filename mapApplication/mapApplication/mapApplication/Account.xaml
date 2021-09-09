@@ -49,15 +49,20 @@
                 <StackLayout>
                     <ContentView BackgroundColor="#3F3F3F" VerticalOptions="Start">
                         <StackLayout Margin="10,10">
+                            <StackLayout Orientation="Vertical">
+                                <Image Source="profilepicture.png" HorizontalOptions="Center"/>
+                                <StackLayout VerticalOptions="Center">
+                                    <Label Text="User name" VerticalOptions="Center" HorizontalOptions="Center" FontSize="30" TextColor="White"/>
+                                    <Label Text="Bio" VerticalOptions="Center" HorizontalOptions="Center" FontSize="30" TextColor="White"/>
+                                </StackLayout>
+                            </StackLayout>
                             <StackLayout Orientation="Horizontal">
-                                <Image Source="profilepicture.png" HorizontalOptions="Start"/>
-                                <Label Text="User name" VerticalOptions="Center" FontSize="38" TextColor="White"/>
+                                <Button HeightRequest="60" WidthRequest="330" Text="Edit Profile" 
+                                    BackgroundColor="#OOC4BB" CornerRadius="5" HorizontalOptions="Start"/>
+                                <Button HeightRequest="60" WidthRequest="55" 
+                                    BackgroundColor="#OOC4BB" CornerRadius="5" HorizontalOptions="End"/>
                             </StackLayout>
-                            <StackLayout>
-                                <Button HeightRequest="60" WidthRequest="150" Text="Edit Profile" 
-                                    BackgroundColor="#OOC4BB" CornerRadius="5" HorizontalOptions="Center"/> 
-                            </StackLayout>
-                            <Label Text="Bio" VerticalOptions="Center" FontSize="38" TextColor="White"/>
+                           
                         </StackLayout>
                     </ContentView>
 
