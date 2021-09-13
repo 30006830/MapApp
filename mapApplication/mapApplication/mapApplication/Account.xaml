@@ -58,9 +58,10 @@
                             </StackLayout>
                             <StackLayout Orientation="Horizontal">
                                 <Button HeightRequest="60" WidthRequest="330" Text="Edit Profile" 
-                                    BackgroundColor="#OOC4BB" CornerRadius="5" HorizontalOptions="Start"/>
-                                <Button HeightRequest="60" WidthRequest="55" 
-                                    BackgroundColor="#OOC4BB" CornerRadius="5" HorizontalOptions="End"/>
+                                    BackgroundColor="#E3E3E3" CornerRadius="5" HorizontalOptions="Start"/>
+                                <ImageButton Source="settings.png" HeightRequest="60" WidthRequest="55" 
+                                    BackgroundColor="#E3E3E3" CornerRadius="5" HorizontalOptions="End"/>
+                                
                             </StackLayout>
                            
                         </StackLayout>
