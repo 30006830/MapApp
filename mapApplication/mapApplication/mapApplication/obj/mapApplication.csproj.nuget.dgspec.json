@@ -45,7 +45,7 @@
           "dependencies": {
             "AWSSDK.Core": {
               "target": "Package",
-              "version": "[3.7.2.10, )"
+              "version": "[3.7.3.11, )"
             },
             "NETStandard.Library": {
               "suppressParent": "All",
@@ -59,7 +59,11 @@
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[5.0.0.2083, )"
+              "version": "[5.0.0.2125, )"
+            },
+            "Xamarin.Forms.Maps": {
+              "target": "Package",
+              "version": "[5.0.0.2125, )"
             }
           },
           "imports": [

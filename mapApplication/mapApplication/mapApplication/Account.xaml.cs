@@ -40,5 +40,15 @@ namespace mapApplication
             await Navigation.PushAsync(new Messages());
         }
         #endregion
+
+        private void EditProfile_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private async void Settings_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Settings());
+        }
     }
 }

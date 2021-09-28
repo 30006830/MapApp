@@ -2,6 +2,7 @@
 using System.ComponentModel;
 using System.Windows.Input;
 using Xamarin.Forms;
+using Xamarin.Forms.Xaml;
 
 namespace mapApplication.ViewModels
 {
@@ -38,7 +39,7 @@ namespace mapApplication.ViewModels
         {
             if (email != "placeholder@gmail.com" || password != "password")
             {
-                DisplayInvalidLoginPrompt();
+                DisplayInvalidLoginPrompt();               
             }
         }
     }

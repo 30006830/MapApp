@@ -20,11 +20,10 @@
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="2*"/>
-                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="2*"/>
             </Grid.ColumnDefinitions>
 
-            <Label Text="Test" TextColor="White" FontSize="40" HorizontalOptions="End"/>
-            
             <!-- Topbar Navigation -->
             <Grid Grid.ColumnSpan="5" BackgroundColor="#BABABA">
                 <Grid.RowDefinitions>
@@ -52,21 +51,17 @@
                             <StackLayout Orientation="Vertical">
                                 <Image Source="profilepicture.png" HorizontalOptions="Center"/>
                                 <StackLayout VerticalOptions="Center">
-                                    <Label Text="User name" VerticalOptions="Center" HorizontalOptions="Center" FontSize="30" TextColor="White"/>
-                                    <Label Text="Bio" VerticalOptions="Center" HorizontalOptions="Center" FontSize="30" TextColor="White"/>
+                                    <Label Text="Username" VerticalOptions="Center" HorizontalOptions="Center" FontSize="30" TextColor="White"/>
                                 </StackLayout>
                             </StackLayout>
                             <StackLayout Orientation="Horizontal">
-                                <Button HeightRequest="60" WidthRequest="330" Text="Edit Profile" 
-                                    BackgroundColor="#E3E3E3" CornerRadius="5" HorizontalOptions="Start"/>
-                                <ImageButton Source="settings.png" HeightRequest="60" WidthRequest="55" 
-                                    BackgroundColor="#E3E3E3" CornerRadius="5" HorizontalOptions="End"/>
-                                
+                                <Button x:Name="EditProfile" HeightRequest="60" WidthRequest="330" Text="Edit Profile" 
+                                    BackgroundColor="#E3E3E3" CornerRadius="5" HorizontalOptions="Start" Clicked="EditProfile_Clicked"/>
+                                <ImageButton x:Name="Settings" Source="settings.png" HeightRequest="60" WidthRequest="55" 
+                                    BackgroundColor="#E3E3E3" CornerRadius="5" HorizontalOptions="End" Clicked="Settings_Clicked"/>
                             </StackLayout>
-                           
                         </StackLayout>
                     </ContentView>
-
 
                     <ContentView BackgroundColor="#00C4BB" VerticalOptions="CenterAndExpand">
                         <StackLayout Margin="10">
@@ -74,19 +69,15 @@
                             <Label Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut augue nec eros laoreet commodo a ac tellus. Donec eget velit odio. Sed in euismod est, luctus molestie tortor. Phasellus ultrices non est in ultricies. Mauris sed massa eu quam fringilla tincidunt et quis quam. Ut venenatis, arcu ullamcorper facilisis ultricies, purus mi facilisis sem, eu egestas tellus ligula vitae leo. Nam placerat velit ante, vel tempor justo faucibus ut. Pellentesque a metus at leo vehicula porta sit amet sed metus. Donec in erat vel sem hendrerit vulputate. Quisque sollicitudin hendrerit odio eget varius. Pellentesque metus velit, rutrum condimentum risus vel, feugiat iaculis arcu. Quisque et libero eget ex maximus volutpat. Maecenas dapibus eros vel justo consectetur, eget varius orci convallis. Nullam suscipit tristique rhoncus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus" FontSize="20"/>
                         </StackLayout>
                     </ContentView>
-
                    
                         <StackLayout VerticalOptions="End">
                             <Button Text="Show Messages" BackgroundColor="#OOC4BB"
                                     CornerRadius="5" Clicked="MessagesClicked"/>
                         </StackLayout>
-                    
-                    
-                        <StackLayout HorizontalOptions="End">
-                            <ImageButton Source="messages.png" HeightRequest="50" BackgroundColor="Transparent" Clicked="MessagesClicked"/>
-                        </StackLayout>
-                    
-                    
+
+                    <StackLayout HorizontalOptions="End">
+                        <ImageButton Source="messages.png" HeightRequest="50" BackgroundColor="Transparent" Clicked="MessagesClicked"/>
+                    </StackLayout>
                 </StackLayout>
             </ScrollView>
         </Grid>

@@ -28,11 +28,7 @@ namespace mapApplication
 
         private async void Button_Clicked(object sender, EventArgs e)
         {
-            var passwordCorrect = true;            
-            if (passwordCorrect)
-            {
-                await Navigation.PushAsync(new Home());
-            }
+            await Navigation.PushAsync(new Home());                   
         }
 
         private void CreateAccount_Clicked(object sender, EventArgs e)

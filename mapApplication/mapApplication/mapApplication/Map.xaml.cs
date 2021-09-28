@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using Xamarin.Forms.Maps;
 
 namespace mapApplication
 {
@@ -14,7 +15,10 @@ namespace mapApplication
     {
         public Map()
         {
-            InitializeComponent();
+            InitializeComponent();            
+            myMap.MoveToRegion(MapSpan.FromCenterAndRadius(
+                new Position(-37.70583, 176.27753), 
+                Distance.FromKilometers(1)));
         }
 
 

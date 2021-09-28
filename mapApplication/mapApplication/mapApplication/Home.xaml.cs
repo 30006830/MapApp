@@ -16,7 +16,9 @@ namespace mapApplication
         public Home()
         {
             InitializeComponent();
-        }        
+        }
+
+        #region Navigation
         private async void HomeClicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new Home());
@@ -33,5 +35,6 @@ namespace mapApplication
         {
             await Navigation.PushAsync(new Notifications());
         }
+        #endregion
     }
 }
