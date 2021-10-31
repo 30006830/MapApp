@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "F14WF50BevmLAZiotToQho3m+fFJFFWAkTtE6tgisOfnAk5E6Csv5UfdVrFiFptRxPSLwOEwUGRzZsGJnaFIlA==",
+  "dgSpecHash": "oLoIsa9r9pMRbuKjskKwPFtq1/YIyUZ5EDGN/KmXlX91FZ5FgtIXM6Bs+RKf2oe1Qm+aCH4fYwe1DdH0tmelFA==",
   "success": true,
   "projectFilePath": "D:\\VSApplications\\MapApp\\mapApplication\\mapApplication\\mapApplication\\mapApplication.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\OEM\\.nuget\\packages\\awssdk.core\\3.7.3.11\\awssdk.core.3.7.3.11.nupkg.sha512",
+    "C:\\Users\\OEM\\.nuget\\packages\\awssdk.core\\3.7.3.24\\awssdk.core.3.7.3.24.nupkg.sha512",
     "C:\\Users\\OEM\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
     "C:\\Users\\OEM\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
@@ -12,8 +12,11 @@
     "C:\\Users\\OEM\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
     "C:\\Users\\OEM\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.2\\system.threading.tasks.extensions.4.5.2.nupkg.sha512",
     "C:\\Users\\OEM\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
-    "C:\\Users\\OEM\\.nuget\\packages\\xamarin.forms\\5.0.0.2125\\xamarin.forms.5.0.0.2125.nupkg.sha512",
-    "C:\\Users\\OEM\\.nuget\\packages\\xamarin.forms.maps\\5.0.0.2125\\xamarin.forms.maps.5.0.0.2125.nupkg.sha512"
+    "C:\\Users\\OEM\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512",
+    "C:\\Users\\OEM\\.nuget\\packages\\xamarin.forms.googlemaps\\3.3.0\\xamarin.forms.googlemaps.3.3.0.nupkg.sha512",
+    "C:\\Users\\OEM\\.nuget\\packages\\xamarin.forms.googlemaps.bindings\\3.0.0\\xamarin.forms.googlemaps.bindings.3.0.0.nupkg.sha512",
+    "C:\\Users\\OEM\\.nuget\\packages\\xamarin.forms.googlemaps.v2\\3.4.5\\xamarin.forms.googlemaps.v2.3.4.5.nupkg.sha512",
+    "C:\\Users\\OEM\\.nuget\\packages\\xamarin.forms.maps\\5.0.0.2196\\xamarin.forms.maps.5.0.0.2196.nupkg.sha512"
   ],
   "logs": []
 }

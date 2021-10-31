@@ -21,6 +21,6 @@
     <Import Project="$(NuGetPackageRoot)xamarin.forms\5.0.0.2125\buildTransitive\Xamarin.Forms.props" Condition="Exists('$(NuGetPackageRoot)xamarin.forms\5.0.0.2125\buildTransitive\Xamarin.Forms.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <PkgAWSSDK_Core Condition=" '$(PkgAWSSDK_Core)' == '' ">C:\Users\OEM\.nuget\packages\awssdk.core\3.7.3.11</PkgAWSSDK_Core>
+    <PkgAWSSDK_Core Condition=" '$(PkgAWSSDK_Core)' == '' ">C:\Users\OEM\.nuget\packages\awssdk.core\3.7.3.24</PkgAWSSDK_Core>
   </PropertyGroup>
 </Project>

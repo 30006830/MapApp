@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="mapApplication.Account"
+             BackgroundColor="#212121">
+
+    <!-- Title for page -->
+    <NavigationPage.TitleView>
+        <FlexLayout VerticalOptions="CenterAndExpand" HorizontalOptions="Center">
+            <Label Text="Account" FontSize="22"/>
+        </FlexLayout>
+    </NavigationPage.TitleView>
+    <ContentPage.Content>
+
+        <!-- Grid Creation -->
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="125"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="2*"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- Topbar Navigation -->
+            <Grid Grid.ColumnSpan="5" BackgroundColor="#BABABA">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="80"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <FlexLayout Grid.Row="0" Grid.Column="1" AlignItems="Center" AlignContent="SpaceEvenly">
+                    <Image Source="tuwharetoa.png"/>
+                </FlexLayout>
+                <FlexLayout Grid.Row="1" Grid.ColumnSpan="3" AlignItems="End" 
+                        JustifyContent="SpaceEvenly" HeightRequest="125">
+                    <ImageButton Clicked="HomeClicked" Source="Home.png" HeightRequest="55" BackgroundColor="Transparent"/>
+                    <ImageButton Clicked="AccountClicked" Source="profilepicture.png" HeightRequest="55" BackgroundColor="Transparent"/>
+                    <ImageButton Clicked="MapClicked" Source="mappointer.png" HeightRequest="55" BackgroundColor="Transparent"/>
+                    <ImageButton Clicked="NotificationsClicked" Source="bell.png" HeightRequest="55" BackgroundColor="Transparent"/>
+                </FlexLayout>
+            </Grid>
+            
+            <!-- Content for page -->
+            <ScrollView Grid.Row="1" Grid.ColumnSpan="5">
+                <StackLayout>
+                    <ContentView BackgroundColor="#3F3F3F" VerticalOptions="Start">
+                        <StackLayout Margin="10,10">
+                            <StackLayout Orientation="Vertical">
+                                <Image Source="profilepicture.png" HorizontalOptions="Center"/>
+                                <StackLayout VerticalOptions="Center">
+                                    <Label Text="Username" VerticalOptions="Center" HorizontalOptions="Center" FontSize="30" TextColor="White"/>
+                                </StackLayout>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal">
+                                <Button x:Name="EditProfile" HeightRequest="60" WidthRequest="330" Text="Edit Profile" 
+                                    BackgroundColor="#E3E3E3" CornerRadius="5" HorizontalOptions="Start" Clicked="EditProfile_Clicked"/>
+                                <ImageButton x:Name="Settings" Source="settings.png" HeightRequest="60" WidthRequest="55" 
+                                    BackgroundColor="#E3E3E3" CornerRadius="5" HorizontalOptions="End" Clicked="Settings_Clicked"/>
+                            </StackLayout>
+                        </StackLayout>
+                    </ContentView>
+
+                    <ContentView BackgroundColor="#00C4BB" VerticalOptions="CenterAndExpand">
+                        <StackLayout Margin="10">
+                            <Label Text="Activity" TextColor="White" FontSize="42"/>
+                            <Label Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut augue nec eros laoreet commodo a ac tellus. Donec eget velit odio. Sed in euismod est, luctus molestie tortor. Phasellus ultrices non est in ultricies. Mauris sed massa eu quam fringilla tincidunt et quis quam. Ut venenatis, arcu ullamcorper facilisis ultricies, purus mi facilisis sem, eu egestas tellus ligula vitae leo. Nam placerat velit ante, vel tempor justo faucibus ut. Pellentesque a metus at leo vehicula porta sit amet sed metus. Donec in erat vel sem hendrerit vulputate. Quisque sollicitudin hendrerit odio eget varius. Pellentesque metus velit, rutrum condimentum risus vel, feugiat iaculis arcu. Quisque et libero eget ex maximus volutpat. Maecenas dapibus eros vel justo consectetur, eget varius orci convallis. Nullam suscipit tristique rhoncus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus" FontSize="20"/>
+                        </StackLayout>
+                    </ContentView>
+                </StackLayout>
+            </ScrollView>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

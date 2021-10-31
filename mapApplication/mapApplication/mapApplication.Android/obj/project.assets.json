@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "MonoAndroid,Version=v10.0": {
-      "AWSSDK.Core/3.7.3.11": {
+      "AWSSDK.Core/3.7.3.24": {
         "type": "package",
         "dependencies": {
           "Microsoft.Bcl.AsyncInterfaces": "1.1.0"
@@ -42,6 +42,142 @@
         },
         "runtime": {
           "lib/MonoAndroid10/_._": {}
+        }
+      },
+      "Xamarin.Android.Support.Animated.Vector.Drawable/25.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Android.Support.Vector.Drawable": "[25.1.0]",
+          "Xamarin.Build.Download": "0.4.2"
+        },
+        "compile": {
+          "lib/MonoAndroid70/Xamarin.Android.Support.Animated.Vector.Drawable.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid70/Xamarin.Android.Support.Animated.Vector.Drawable.dll": {}
+        },
+        "build": {
+          "build/MonoAndroid70/_._": {}
+        }
+      },
+      "Xamarin.Android.Support.Compat/25.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Build.Download": "0.4.2"
+        },
+        "compile": {
+          "lib/MonoAndroid70/Xamarin.Android.Support.Compat.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid70/Xamarin.Android.Support.Compat.dll": {}
+        },
+        "build": {
+          "build/MonoAndroid70/_._": {}
+        }
+      },
+      "Xamarin.Android.Support.Core.UI/25.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Android.Support.Compat": "[25.1.0]",
+          "Xamarin.Build.Download": "0.4.2"
+        },
+        "compile": {
+          "lib/MonoAndroid70/Xamarin.Android.Support.Core.UI.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid70/Xamarin.Android.Support.Core.UI.dll": {}
+        },
+        "build": {
+          "build/MonoAndroid70/_._": {}
+        }
+      },
+      "Xamarin.Android.Support.Core.Utils/25.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Android.Support.Compat": "[25.1.0]",
+          "Xamarin.Build.Download": "0.4.2"
+        },
+        "compile": {
+          "lib/MonoAndroid70/Xamarin.Android.Support.Core.Utils.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid70/Xamarin.Android.Support.Core.Utils.dll": {}
+        },
+        "build": {
+          "build/MonoAndroid70/_._": {}
+        }
+      },
+      "Xamarin.Android.Support.Fragment/25.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Android.Support.Compat": "[25.1.0]",
+          "Xamarin.Android.Support.Core.UI": "[25.1.0]",
+          "Xamarin.Android.Support.Core.Utils": "[25.1.0]",
+          "Xamarin.Android.Support.Media.Compat": "[25.1.0]",
+          "Xamarin.Build.Download": "0.4.2"
+        },
+        "compile": {
+          "lib/MonoAndroid70/Xamarin.Android.Support.Fragment.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid70/Xamarin.Android.Support.Fragment.dll": {}
+        },
+        "build": {
+          "build/MonoAndroid70/_._": {}
+        }
+      },
+      "Xamarin.Android.Support.Media.Compat/25.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Android.Support.Compat": "[25.1.0]",
+          "Xamarin.Build.Download": "0.4.2"
+        },
+        "compile": {
+          "lib/MonoAndroid70/Xamarin.Android.Support.Media.Compat.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid70/Xamarin.Android.Support.Media.Compat.dll": {}
+        },
+        "build": {
+          "build/MonoAndroid70/_._": {}
+        }
+      },
+      "Xamarin.Android.Support.v7.AppCompat/25.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Android.Support.Animated.Vector.Drawable": "[25.1.0]",
+          "Xamarin.Android.Support.Compat": "[25.1.0]",
+          "Xamarin.Android.Support.Core.UI": "[25.1.0]",
+          "Xamarin.Android.Support.Core.Utils": "[25.1.0]",
+          "Xamarin.Android.Support.Fragment": "[25.1.0]",
+          "Xamarin.Android.Support.Media.Compat": "[25.1.0]",
+          "Xamarin.Android.Support.Vector.Drawable": "[25.1.0]",
+          "Xamarin.Build.Download": "0.4.2"
+        },
+        "compile": {
+          "lib/MonoAndroid70/Xamarin.Android.Support.v7.AppCompat.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid70/Xamarin.Android.Support.v7.AppCompat.dll": {}
+        },
+        "build": {
+          "build/MonoAndroid70/_._": {}
+        }
+      },
+      "Xamarin.Android.Support.Vector.Drawable/25.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Android.Support.Compat": "[25.1.0]",
+          "Xamarin.Build.Download": "0.4.2"
+        },
+        "compile": {
+          "lib/MonoAndroid70/Xamarin.Android.Support.Vector.Drawable.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid70/Xamarin.Android.Support.Vector.Drawable.dll": {}
+        },
+        "build": {
+          "build/MonoAndroid70/_._": {}
         }
       },
       "Xamarin.AndroidX.Activity/1.2.4.1": {
@@ -1527,6 +1663,48 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.GoogleMaps/3.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Android.Support.v7.AppCompat": "25.1.0",
+          "Xamarin.GooglePlayServices.Maps": "60.1142.1"
+        },
+        "compile": {
+          "lib/MonoAndroid70/Xamarin.Forms.GoogleMaps.Android.dll": {},
+          "lib/MonoAndroid70/Xamarin.Forms.GoogleMaps.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid70/Xamarin.Forms.GoogleMaps.Android.dll": {},
+          "lib/MonoAndroid70/Xamarin.Forms.GoogleMaps.dll": {}
+        }
+      },
+      "Xamarin.Forms.GoogleMaps.Bindings/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "3.0.0.482510",
+          "Xamarin.Forms.GoogleMaps": "3.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Xamarin.Forms.GoogleMaps.Bindings.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Forms.GoogleMaps.Bindings.dll": {}
+        }
+      },
+      "Xamarin.Forms.GoogleMaps.v2/3.4.5": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.GooglePlayServices.Maps": "117.0.0"
+        },
+        "compile": {
+          "lib/MonoAndroid70/Xamarin.Forms.GoogleMaps.Android.dll": {},
+          "lib/MonoAndroid70/Xamarin.Forms.GoogleMaps.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid70/Xamarin.Forms.GoogleMaps.Android.dll": {},
+          "lib/MonoAndroid70/Xamarin.Forms.GoogleMaps.dll": {}
+        }
+      },
       "Xamarin.Forms.Maps/5.0.0.2125": {
         "type": "package",
         "dependencies": {
@@ -1683,10 +1861,13 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "AWSSDK.Core": "3.7.3.11",
+          "AWSSDK.Core": "3.7.3.24",
           "Xamarin.Essentials": "1.7.0",
-          "Xamarin.Forms": "5.0.0.2125",
-          "Xamarin.Forms.Maps": "5.0.0.2125"
+          "Xamarin.Forms": "5.0.0.2196",
+          "Xamarin.Forms.GoogleMaps": "3.3.0",
+          "Xamarin.Forms.GoogleMaps.Bindings": "3.0.0",
+          "Xamarin.Forms.GoogleMaps.v2": "3.4.5",
+          "Xamarin.Forms.Maps": "5.0.0.2196"
         },
         "compile": {
           "bin/placeholder/mapApplication.dll": {}
@@ -1698,15 +1879,15 @@
     }
   },
   "libraries": {
-    "AWSSDK.Core/3.7.3.11": {
-      "sha512": "Gt6AkS+5Wi4eLPKhrDsjkYYXBwCIwcUwZaRe8rPcDh8MMjTBiy47gHTkbWtCGQZtZ/tlm06NusmP0vT9dp239g==",
+    "AWSSDK.Core/3.7.3.24": {
+      "sha512": "zsFgTcreatZxnVo3K23kKGr2rFiencqoo8sBuFiqGA89EEPBKWZo7+1HwWQR1GZyvR4WoiAZUEslZ+KM6sUunw==",
       "type": "package",
-      "path": "awssdk.core/3.7.3.11",
+      "path": "awssdk.core/3.7.3.24",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "awssdk.core.3.7.3.11.nupkg.sha512",
+        "awssdk.core.3.7.3.24.nupkg.sha512",
         "awssdk.core.nuspec",
         "lib/net35/AWSSDK.Core.dll",
         "lib/net35/AWSSDK.Core.pdb",
@@ -1827,6 +2008,111 @@
         "system.threading.tasks.extensions.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
+      ]
+    },
+    "Xamarin.Android.Support.Animated.Vector.Drawable/25.1.0": {
+      "sha512": "M5tEIXuaIG6iJXLnV1WUJzczBwNzyD5EUg/ZoFdfuOKTA1l3oRJB/po3SKzQQwf1LHJNoLZjHc+luuPcNt2+Sw==",
+      "type": "package",
+      "path": "xamarin.android.support.animated.vector.drawable/25.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/MonoAndroid70/Xamarin.Android.Support.Animated.Vector.Drawable.targets",
+        "lib/MonoAndroid70/Xamarin.Android.Support.Animated.Vector.Drawable.dll",
+        "xamarin.android.support.animated.vector.drawable.25.1.0.nupkg.sha512",
+        "xamarin.android.support.animated.vector.drawable.nuspec"
+      ]
+    },
+    "Xamarin.Android.Support.Compat/25.1.0": {
+      "sha512": "FUPL8TFUtj6XRPGzOcvtcSU4gElCTgAF+CatpoYrT1zmPLe7wUfgovg5TmbnvZQZ1z2OGeVHcWq5x26X59qSJQ==",
+      "type": "package",
+      "path": "xamarin.android.support.compat/25.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/MonoAndroid70/Xamarin.Android.Support.Compat.targets",
+        "lib/MonoAndroid70/Xamarin.Android.Support.Compat.dll",
+        "xamarin.android.support.compat.25.1.0.nupkg.sha512",
+        "xamarin.android.support.compat.nuspec"
+      ]
+    },
+    "Xamarin.Android.Support.Core.UI/25.1.0": {
+      "sha512": "ZShGBAPfISzk5kTDs6XqYYmt/Wr2ge9dBMH9/HRKjDrnIYoNkrCRemm1UC6bbvNkMtF7U6Y1uI3o237AmBqM+g==",
+      "type": "package",
+      "path": "xamarin.android.support.core.ui/25.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/MonoAndroid70/Xamarin.Android.Support.Core.UI.targets",
+        "lib/MonoAndroid70/Xamarin.Android.Support.Core.UI.dll",
+        "xamarin.android.support.core.ui.25.1.0.nupkg.sha512",
+        "xamarin.android.support.core.ui.nuspec"
+      ]
+    },
+    "Xamarin.Android.Support.Core.Utils/25.1.0": {
+      "sha512": "/dH9yur9k1xaCyBBv5zngg/d5tV7C8QrnGzLdeFtngVW5NK8OqcF+vrf07R8NHe6CYqVBtVk+/AOU/IwISCjZw==",
+      "type": "package",
+      "path": "xamarin.android.support.core.utils/25.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/MonoAndroid70/Xamarin.Android.Support.Core.Utils.targets",
+        "lib/MonoAndroid70/Xamarin.Android.Support.Core.Utils.dll",
+        "xamarin.android.support.core.utils.25.1.0.nupkg.sha512",
+        "xamarin.android.support.core.utils.nuspec"
+      ]
+    },
+    "Xamarin.Android.Support.Fragment/25.1.0": {
+      "sha512": "IP3fqbC7TY+AWYlJDmx3x+YL9CCCZrExQYcYUFQ3R8/4VrwsgP/irwFBXhcbk0Q2o9e7NsZNCDX3WkjhkVWD4A==",
+      "type": "package",
+      "path": "xamarin.android.support.fragment/25.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/MonoAndroid70/Xamarin.Android.Support.Fragment.targets",
+        "lib/MonoAndroid70/Xamarin.Android.Support.Fragment.dll",
+        "xamarin.android.support.fragment.25.1.0.nupkg.sha512",
+        "xamarin.android.support.fragment.nuspec"
+      ]
+    },
+    "Xamarin.Android.Support.Media.Compat/25.1.0": {
+      "sha512": "4cfxrZGGnkjkSIPhYJEBxIBhpuTrxlmf2DCiT/yKNcLlYIa/UnjTO/0Rd/uuKUkBqM+Em8dtDdOCHHtJ3qlkXA==",
+      "type": "package",
+      "path": "xamarin.android.support.media.compat/25.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/MonoAndroid70/Xamarin.Android.Support.Media.Compat.targets",
+        "lib/MonoAndroid70/Xamarin.Android.Support.Media.Compat.dll",
+        "xamarin.android.support.media.compat.25.1.0.nupkg.sha512",
+        "xamarin.android.support.media.compat.nuspec"
+      ]
+    },
+    "Xamarin.Android.Support.v7.AppCompat/25.1.0": {
+      "sha512": "6fUGP7yAFq7By7m8/PcuVuDWLeXdCVbt3FpZqXb6wF3Be2/UQX4M+WXSYvEjUZHr57hkTJbzdccXzWE+zDcaOw==",
+      "type": "package",
+      "path": "xamarin.android.support.v7.appcompat/25.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/MonoAndroid70/Xamarin.Android.Support.v7.AppCompat.targets",
+        "lib/MonoAndroid70/Xamarin.Android.Support.v7.AppCompat.dll",
+        "xamarin.android.support.v7.appcompat.25.1.0.nupkg.sha512",
+        "xamarin.android.support.v7.appcompat.nuspec"
+      ]
+    },
+    "Xamarin.Android.Support.Vector.Drawable/25.1.0": {
+      "sha512": "qUxDPTqa4lda90sU5Qtj6pOE3MPyoz9nTnq7iweY+CVN/59igeN6AfciKabR7LZAir5mRKxPN9YU3IO6S92IYg==",
+      "type": "package",
+      "path": "xamarin.android.support.vector.drawable/25.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/MonoAndroid70/Xamarin.Android.Support.Tasks.VectorDrawable.dll",
+        "build/MonoAndroid70/Xamarin.Android.Support.Vector.Drawable.targets",
+        "lib/MonoAndroid70/Xamarin.Android.Support.Vector.Drawable.dll",
+        "xamarin.android.support.vector.drawable.25.1.0.nupkg.sha512",
+        "xamarin.android.support.vector.drawable.nuspec"
       ]
     },
     "Xamarin.AndroidX.Activity/1.2.4.1": {
@@ -3364,6 +3650,58 @@
         "xamarin.forms.nuspec"
       ]
     },
+    "Xamarin.Forms.GoogleMaps/3.3.0": {
+      "sha512": "C1wutzR7wLgUQuiG1NgArab0X02DGOKWW10+uLBUJE+Cac0+8J/TlLVqdqEl82BDGl3n71zmiLnHd5AZlrFEfw==",
+      "type": "package",
+      "path": "xamarin.forms.googlemaps/3.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "lib/MonoAndroid70/Xamarin.Forms.GoogleMaps.Android.dll",
+        "lib/MonoAndroid70/Xamarin.Forms.GoogleMaps.dll",
+        "lib/UAP10/Xamarin.Forms.GoogleMaps.UWP.dll",
+        "lib/UAP10/Xamarin.Forms.GoogleMaps.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.GoogleMaps.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.GoogleMaps.iOS.dll",
+        "lib/netstandard1.0/Xamarin.Forms.GoogleMaps.dll",
+        "lib/netstandard2.0/Xamarin.Forms.GoogleMaps.dll",
+        "xamarin.forms.googlemaps.3.3.0.nupkg.sha512",
+        "xamarin.forms.googlemaps.nuspec"
+      ]
+    },
+    "Xamarin.Forms.GoogleMaps.Bindings/3.0.0": {
+      "sha512": "gBovNQDPGj/v5c8ejqANOKLcolqV+CAHymjPfoGwp+w+HZ8Z96bI/VLpEzGTK9KyRCssQXI4qUmWmQjpCoIWyA==",
+      "type": "package",
+      "path": "xamarin.forms.googlemaps.bindings/3.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard1.0/Xamarin.Forms.GoogleMaps.Bindings.dll",
+        "lib/netstandard2.0/Xamarin.Forms.GoogleMaps.Bindings.dll",
+        "nuits.jp.128x128.png",
+        "xamarin.forms.googlemaps.bindings.3.0.0.nupkg.sha512",
+        "xamarin.forms.googlemaps.bindings.nuspec"
+      ]
+    },
+    "Xamarin.Forms.GoogleMaps.v2/3.4.5": {
+      "sha512": "959VIa+dR7DP84AA0uxUYfhoJTyESxskvPvxUCGqz/acZ8HncbtOeHP6SC9WRKJDRbfT8LysEwll+IpRenIPDw==",
+      "type": "package",
+      "path": "xamarin.forms.googlemaps.v2/3.4.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "lib/MonoAndroid70/Xamarin.Forms.GoogleMaps.Android.dll",
+        "lib/MonoAndroid70/Xamarin.Forms.GoogleMaps.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.GoogleMaps.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.GoogleMaps.iOS.dll",
+        "lib/netstandard1.0/Xamarin.Forms.GoogleMaps.dll",
+        "lib/netstandard2.0/Xamarin.Forms.GoogleMaps.dll",
+        "xamarin.forms.googlemaps.v2.3.4.5.nupkg.sha512",
+        "xamarin.forms.googlemaps.v2.nuspec"
+      ]
+    },
     "Xamarin.Forms.Maps/5.0.0.2125": {
       "sha512": "2FDWADipiF8agAqoFNOTHdefJsIO1mHdLe/yI9GxdVtnIUPrs7CR7z48XWMx+1h0/nltTzQEpSksqImg7gZshQ==",
       "type": "package",
@@ -3574,5 +3912,27 @@
         }
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Xamarin.Forms.Maps from 5.0.0.2196 to 5.0.0.2125. Reference the package directly from the project to select a different version. \r\n mapApplication.Android -> mapApplication -> Xamarin.Forms.Maps (>= 5.0.0.2196) \r\n mapApplication.Android -> Xamarin.Forms.Maps (>= 5.0.0.2125)",
+      "libraryId": "Xamarin.Forms.Maps",
+      "targetGraphs": [
+        "MonoAndroid,Version=v10.0"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Xamarin.Forms from 5.0.0.2196 to 5.0.0.2125. Reference the package directly from the project to select a different version. \r\n mapApplication.Android -> mapApplication -> Xamarin.Forms (>= 5.0.0.2196) \r\n mapApplication.Android -> Xamarin.Forms (>= 5.0.0.2125)",
+      "libraryId": "Xamarin.Forms",
+      "targetGraphs": [
+        "MonoAndroid,Version=v10.0"
+      ]
+    }
+  ]
 }

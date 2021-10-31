@@ -103,7 +103,7 @@
           "dependencies": {
             "AWSSDK.Core": {
               "target": "Package",
-              "version": "[3.7.3.11, )"
+              "version": "[3.7.3.24, )"
             },
             "NETStandard.Library": {
               "suppressParent": "All",
@@ -117,11 +117,23 @@
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[5.0.0.2125, )"
+              "version": "[5.0.0.2196, )"
+            },
+            "Xamarin.Forms.GoogleMaps": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            },
+            "Xamarin.Forms.GoogleMaps.Bindings": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Xamarin.Forms.GoogleMaps.v2": {
+              "target": "Package",
+              "version": "[3.4.5, )"
             },
             "Xamarin.Forms.Maps": {
               "target": "Package",
-              "version": "[5.0.0.2125, )"
+              "version": "[5.0.0.2196, )"
             }
           },
           "imports": [

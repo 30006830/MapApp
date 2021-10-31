@@ -9,24 +9,28 @@
     ".NETStandard,Version=v2.0/": {
       "mapApplication/1.0.0": {
         "dependencies": {
-          "AWSSDK.Core": "3.7.3.11",
+          "AWSSDK.Core": "3.7.3.24",
           "NETStandard.Library": "2.0.3",
           "Xamarin.Essentials": "1.7.0",
-          "Xamarin.Forms": "5.0.0.2125",
-          "Xamarin.Forms.Maps": "5.0.0.2125"
+          "Xamarin.Forms": "5.0.0.2196",
+          "Xamarin.Forms.GoogleMaps": "3.3.0",
+          "Xamarin.Forms.GoogleMaps.Bindings": "3.0.0",
+          "Xamarin.Forms.GoogleMaps.v2": "3.4.5",
+          "Xamarin.Forms.Maps": "5.0.0.2196",
+          "Mono.Android": "0.0.0.0"
         },
         "runtime": {
           "mapApplication.dll": {}
         }
       },
-      "AWSSDK.Core/3.7.3.11": {
+      "AWSSDK.Core/3.7.3.24": {
         "dependencies": {
           "Microsoft.Bcl.AsyncInterfaces": "1.1.0"
         },
         "runtime": {
           "lib/netstandard2.0/AWSSDK.Core.dll": {
             "assemblyVersion": "3.3.0.0",
-            "fileVersion": "3.7.3.11"
+            "fileVersion": "3.7.3.24"
           }
         }
       },
@@ -85,30 +89,72 @@
           }
         }
       },
-      "Xamarin.Forms/5.0.0.2125": {
+      "Xamarin.Forms/5.0.0.2196": {
         "runtime": {
           "lib/netstandard2.0/Xamarin.Forms.Core.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "5.0.0.747"
+            "fileVersion": "5.0.0.786"
           },
           "lib/netstandard2.0/Xamarin.Forms.Platform.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "5.0.0.747"
+            "fileVersion": "5.0.0.786"
           },
           "lib/netstandard2.0/Xamarin.Forms.Xaml.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "5.0.0.747"
+            "fileVersion": "5.0.0.786"
           }
         }
       },
-      "Xamarin.Forms.Maps/5.0.0.2125": {
+      "Xamarin.Forms.GoogleMaps/3.3.0": {
         "dependencies": {
-          "Xamarin.Forms": "5.0.0.2125"
+          "Xamarin.Forms": "5.0.0.2196"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Forms.GoogleMaps.dll": {
+            "assemblyVersion": "3.0.1.0",
+            "fileVersion": "3.0.1.0"
+          }
+        }
+      },
+      "Xamarin.Forms.GoogleMaps.Bindings/3.0.0": {
+        "dependencies": {
+          "Xamarin.Forms": "5.0.0.2196",
+          "Xamarin.Forms.GoogleMaps": "3.3.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Forms.GoogleMaps.Bindings.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        }
+      },
+      "Xamarin.Forms.GoogleMaps.v2/3.4.5": {
+        "dependencies": {
+          "Xamarin.Forms": "5.0.0.2196"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Forms.GoogleMaps.dll": {
+            "assemblyVersion": "3.0.1.0",
+            "fileVersion": "3.0.1.0"
+          }
+        }
+      },
+      "Xamarin.Forms.Maps/5.0.0.2196": {
+        "dependencies": {
+          "Xamarin.Forms": "5.0.0.2196"
         },
         "runtime": {
           "lib/netstandard2.0/Xamarin.Forms.Maps.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "5.0.0.747"
+            "fileVersion": "5.0.0.786"
+          }
+        }
+      },
+      "Mono.Android/0.0.0.0": {
+        "runtime": {
+          "Mono.Android.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
           }
         }
       }
@@ -120,12 +166,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "AWSSDK.Core/3.7.3.11": {
+    "AWSSDK.Core/3.7.3.24": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Gt6AkS+5Wi4eLPKhrDsjkYYXBwCIwcUwZaRe8rPcDh8MMjTBiy47gHTkbWtCGQZtZ/tlm06NusmP0vT9dp239g==",
-      "path": "awssdk.core/3.7.3.11",
-      "hashPath": "awssdk.core.3.7.3.11.nupkg.sha512"
+      "sha512": "sha512-zsFgTcreatZxnVo3K23kKGr2rFiencqoo8sBuFiqGA89EEPBKWZo7+1HwWQR1GZyvR4WoiAZUEslZ+KM6sUunw==",
+      "path": "awssdk.core/3.7.3.24",
+      "hashPath": "awssdk.core.3.7.3.24.nupkg.sha512"
     },
     "Microsoft.Bcl.AsyncInterfaces/1.1.0": {
       "type": "package",
@@ -176,19 +222,45 @@
       "path": "xamarin.essentials/1.7.0",
       "hashPath": "xamarin.essentials.1.7.0.nupkg.sha512"
     },
-    "Xamarin.Forms/5.0.0.2125": {
+    "Xamarin.Forms/5.0.0.2196": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-oP4eEx8SkEId/azXqzBpl9MA5kjn8izMoQImV3c/M4Q8NLSERWWNJkymrSylaIIO4l0zQIofYjwQoHmtaQ0dFQ==",
-      "path": "xamarin.forms/5.0.0.2125",
-      "hashPath": "xamarin.forms.5.0.0.2125.nupkg.sha512"
+      "sha512": "sha512-zSXDiZukojtEBmZKUUG1yYBwlB9tI8JLPkc6n+Sm1PAX01QyzErWE9AaFJgP7usyoGHn92l4HnQF7A+/MPI6VA==",
+      "path": "xamarin.forms/5.0.0.2196",
+      "hashPath": "xamarin.forms.5.0.0.2196.nupkg.sha512"
     },
-    "Xamarin.Forms.Maps/5.0.0.2125": {
+    "Xamarin.Forms.GoogleMaps/3.3.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-2FDWADipiF8agAqoFNOTHdefJsIO1mHdLe/yI9GxdVtnIUPrs7CR7z48XWMx+1h0/nltTzQEpSksqImg7gZshQ==",
-      "path": "xamarin.forms.maps/5.0.0.2125",
-      "hashPath": "xamarin.forms.maps.5.0.0.2125.nupkg.sha512"
+      "sha512": "sha512-C1wutzR7wLgUQuiG1NgArab0X02DGOKWW10+uLBUJE+Cac0+8J/TlLVqdqEl82BDGl3n71zmiLnHd5AZlrFEfw==",
+      "path": "xamarin.forms.googlemaps/3.3.0",
+      "hashPath": "xamarin.forms.googlemaps.3.3.0.nupkg.sha512"
+    },
+    "Xamarin.Forms.GoogleMaps.Bindings/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gBovNQDPGj/v5c8ejqANOKLcolqV+CAHymjPfoGwp+w+HZ8Z96bI/VLpEzGTK9KyRCssQXI4qUmWmQjpCoIWyA==",
+      "path": "xamarin.forms.googlemaps.bindings/3.0.0",
+      "hashPath": "xamarin.forms.googlemaps.bindings.3.0.0.nupkg.sha512"
+    },
+    "Xamarin.Forms.GoogleMaps.v2/3.4.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-959VIa+dR7DP84AA0uxUYfhoJTyESxskvPvxUCGqz/acZ8HncbtOeHP6SC9WRKJDRbfT8LysEwll+IpRenIPDw==",
+      "path": "xamarin.forms.googlemaps.v2/3.4.5",
+      "hashPath": "xamarin.forms.googlemaps.v2.3.4.5.nupkg.sha512"
+    },
+    "Xamarin.Forms.Maps/5.0.0.2196": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-A54S2UdaJqDl9tvbbLjCSSI6+DO+R2AujX2WqH+1S8kNeu2Sfl/5NZKtTqmneyAnxPMa9JHFRTA6m6EHyx7jPA==",
+      "path": "xamarin.forms.maps/5.0.0.2196",
+      "hashPath": "xamarin.forms.maps.5.0.0.2196.nupkg.sha512"
+    },
+    "Mono.Android/0.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }
