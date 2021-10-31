@@ -22515,17 +22515,17 @@ namespace mapApplication.Droid
 			// aapt resource value: 0x7F080057
 			public const int antiClockwise = 2131230807;
 			
-			// aapt resource value: 0x7F080002
-			public const int APPLICATION_NAME = 2131230722;
-			
 			// aapt resource value: 0x7F08005A
 			public const int application_name = 2131230810;
 			
-			// aapt resource value: 0x7F080059
-			public const int app_name = 2131230809;
+			// aapt resource value: 0x7F080002
+			public const int APPLICATION_NAME = 2131230722;
 			
 			// aapt resource value: 0x7F080003
 			public const int APP_NAME = 2131230723;
+			
+			// aapt resource value: 0x7F080059
+			public const int app_name = 2131230809;
 			
 			// aapt resource value: 0x7F08005B
 			public const int arc = 2131230811;
@@ -23640,11 +23640,11 @@ namespace mapApplication.Droid
 			// aapt resource value: 0x7F0801C2
 			public const int suffix = 2131231170;
 			
-			// aapt resource value: 0x7F0801C3
-			public const int summary = 2131231171;
-			
 			// aapt resource value: 0x7F08000F
 			public const int SUMMARY = 2131230735;
+			
+			// aapt resource value: 0x7F0801C3
+			public const int summary = 2131231171;
 			
 			// aapt resource value: 0x7F0801C4
 			public const int supportScrollUp = 2131231172;

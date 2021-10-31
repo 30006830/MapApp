@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gTum5jpMrdmMsOLlLPnVibb/UjZ5WTjsnfSuqHp4lJT/GpFdEQcK00yZsk6o5KNGcnx4k2jq++CxoqJ++eMljQ==",
+  "dgSpecHash": "GzBWJ9Dln5WxCcWpKJeEvgxANufGBBMX+/2bCuMegCyAjphe8D7XzwtehLjegOe84lQ6oxfNn548a8j+oF6iaw==",
   "success": true,
-  "projectFilePath": "D:\\VSApplications\\MapApp\\mapApplication\\mapApplication\\mapApplication.Android\\mapApplication.Android.csproj",
+  "projectFilePath": "D:\\Visual Studio Apps\\MapApp\\mapApplication\\mapApplication\\mapApplication.Android\\mapApplication.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\OEM\\.nuget\\packages\\awssdk.core\\3.7.3.24\\awssdk.core.3.7.3.24.nupkg.sha512",
     "C:\\Users\\OEM\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",

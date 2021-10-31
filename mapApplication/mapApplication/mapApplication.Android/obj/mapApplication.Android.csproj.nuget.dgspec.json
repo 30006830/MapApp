@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\VSApplications\\MapApp\\mapApplication\\mapApplication\\mapApplication.Android\\mapApplication.Android.csproj": {}
+    "D:\\Visual Studio Apps\\MapApp\\mapApplication\\mapApplication\\mapApplication.Android\\mapApplication.Android.csproj": {}
   },
   "projects": {
-    "D:\\VSApplications\\MapApp\\mapApplication\\mapApplication\\mapApplication.Android\\mapApplication.Android.csproj": {
+    "D:\\Visual Studio Apps\\MapApp\\mapApplication\\mapApplication\\mapApplication.Android\\mapApplication.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VSApplications\\MapApp\\mapApplication\\mapApplication\\mapApplication.Android\\mapApplication.Android.csproj",
+        "projectUniqueName": "D:\\Visual Studio Apps\\MapApp\\mapApplication\\mapApplication\\mapApplication.Android\\mapApplication.Android.csproj",
         "projectName": "mapApplication.Android",
-        "projectPath": "D:\\VSApplications\\MapApp\\mapApplication\\mapApplication\\mapApplication.Android\\mapApplication.Android.csproj",
+        "projectPath": "D:\\Visual Studio Apps\\MapApp\\mapApplication\\mapApplication\\mapApplication.Android\\mapApplication.Android.csproj",
         "packagesPath": "C:\\Users\\OEM\\.nuget\\packages\\",
-        "outputPath": "D:\\VSApplications\\MapApp\\mapApplication\\mapApplication\\mapApplication.Android\\obj\\",
+        "outputPath": "D:\\Visual Studio Apps\\MapApp\\mapApplication\\mapApplication\\mapApplication.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid10.0": {
             "projectReferences": {
-              "D:\\VSApplications\\MapApp\\mapApplication\\mapApplication\\mapApplication\\mapApplication.csproj": {
-                "projectPath": "D:\\VSApplications\\MapApp\\mapApplication\\mapApplication\\mapApplication\\mapApplication.csproj"
+              "D:\\Visual Studio Apps\\MapApp\\mapApplication\\mapApplication\\mapApplication\\mapApplication.csproj": {
+                "projectPath": "D:\\Visual Studio Apps\\MapApp\\mapApplication\\mapApplication\\mapApplication\\mapApplication.csproj"
               }
             }
           }
@@ -62,14 +62,14 @@
         }
       }
     },
-    "D:\\VSApplications\\MapApp\\mapApplication\\mapApplication\\mapApplication\\mapApplication.csproj": {
+    "D:\\Visual Studio Apps\\MapApp\\mapApplication\\mapApplication\\mapApplication\\mapApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VSApplications\\MapApp\\mapApplication\\mapApplication\\mapApplication\\mapApplication.csproj",
+        "projectUniqueName": "D:\\Visual Studio Apps\\MapApp\\mapApplication\\mapApplication\\mapApplication\\mapApplication.csproj",
         "projectName": "mapApplication",
-        "projectPath": "D:\\VSApplications\\MapApp\\mapApplication\\mapApplication\\mapApplication\\mapApplication.csproj",
+        "projectPath": "D:\\Visual Studio Apps\\MapApp\\mapApplication\\mapApplication\\mapApplication\\mapApplication.csproj",
         "packagesPath": "C:\\Users\\OEM\\.nuget\\packages\\",
-        "outputPath": "D:\\VSApplications\\MapApp\\mapApplication\\mapApplication\\mapApplication\\obj\\",
+        "outputPath": "D:\\Visual Studio Apps\\MapApp\\mapApplication\\mapApplication\\mapApplication\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft\\Xamarin\\NuGet\\",
